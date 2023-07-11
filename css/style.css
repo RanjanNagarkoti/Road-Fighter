@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#canvas {
+  width: 800px;
+  height: 700px;
+  border: 1px solid black;
+}
+
+.board {
+  /* background: red; */
+  padding: 1rem;
+  width: 800px;
+  height: 10vh;
+  display: flex;
+}
+.board h1 {
+  margin-left: 0.5em;
+}
+#score-board {
+  width: 50%;
+  display: flex;
+}
+
+#life-board {
+  width: 50%;
+  display: flex;
+}
+
+footer {
+  padding: 1rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.5);
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}

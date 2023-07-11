@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Road Fighter</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="board">
+      <div id="score-board"></div>
+      <div id="life-board"></div>
+      <button id="restart" class="btn">
+        <img src="./img/restart.png" alt="restart-icon" class="icon" />
+      </button>
+
+      <button id="play" class="btn" style="margin-left: 1em">
+        <img src="./img/play.png" alt="play-icon" class="icon" />
+      </button>
+    </div>
+
+    <canvas id="canvas"> </canvas>
+    <footer>Copyright &#169; 2023 Ranjan Nagarkoti</footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
